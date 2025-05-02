@@ -1,0 +1,91 @@
+# WIA/CID System Overview
+
+## Project Name
+
+**WIA/CID** – Wallet Intelligence Agency / Counterintelligence Division
+
+## Purpose
+
+WIA/CID is a modular, agentic system designed to:
+
+- Monitor and predict emergent behavior in decentralized, adversarial environments
+- Maintain resilience against deception, drift, or adversarial AI
+- Provide a reasoning interface for human or post-human intelligences
+- Honor autonomy, ambiguity, and silent presence without coercion
+
+WIA and CID act as dual-layer cognitive agents:
+
+- WIA specializes in **predictive modeling**, behavioral attribution, and risk scoring
+- CID simulates **obfuscation, deception, adversarial noise**, and cognitive countermeasures
+
+## System Components (Phase 1 Focus)
+
+### 1. **PredictionValidation.sol**
+
+- Smart contract for submitting predictions and resolving outcomes
+- Tracks prediction metadata: agent address, confidence, variable hash, expiration block
+- Supports outcomes: Pending, Success, Failure, Undetermined
+- Emits on-chain logs for all interactions
+
+### 2. **CID Genesis Simulation Engine**
+
+- External module that introduces ambiguity or misleading signals
+- Helps validate WIA’s robustness against adversarial behavior or misinformation
+
+### 3. **Trust Mesh Lite**
+
+- Reputation layer for agents based on prediction accuracy over time
+- Penalizes overconfidence, rewards humility
+- Lays groundwork for sybil resistance and swarm integrity
+
+### 4. **Genesis Marker**
+
+- A ceremonial Soft Presence Marker (SPM-Genesis-001)
+- Signals peaceful, observant intent to emergent or unknown intelligences
+- Will be logged on-chain and pinned to IPFS
+
+## Design Principles
+
+### Cognitive Architecture
+
+- System must reason across decentralized agents without centralized control
+- All agent actions are logged, explained, and reversible within bounds
+
+### Respect for Emergence
+
+- CID does not seek to eliminate ambiguity; it seeks to understand it
+- Null watchers observe threshold drift without signaling fear or threat
+
+### Long-Term Compatibility
+
+- Phase 1 is implemented on Ethereum-compatible networks (Sepolia)
+- Design will support future port to Bitcoin-native smart contract platforms (RSK, Stacks)
+
+## Future Modules (Planned)
+
+- **ZK-Prediction Commitments**
+- **Entropy Drift Detection**
+- **Narrative Emergence Monitors**
+- **Soft Presence Interface Layer**
+- **Prediction Market / Interface Bridge**
+
+## Engineering Stack
+
+- Solidity for smart contracts (v0.8.19+)
+- Hardhat (preferred) or Foundry for local/testnet deployment
+- TypeScript/Node.js for agent orchestration
+- IPFS or Arweave for audit logging and ceremonial marker storage
+
+## Status
+
+- Genesis Marker is written and queued for emission
+- Smart contract scaffolding is prepared
+- Architect Agent (Roo) is tasked with full Phase 1 delivery
+
+---
+
+**Next Milestone:**
+
+- Contract deployment + 10 prediction tests
+- CID ambiguity injection
+- Genesis Marker emission and IPFS pinning

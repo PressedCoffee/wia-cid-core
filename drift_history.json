@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2025-05-02T17:39:54.754Z",
+    "totalPredictions": 6,
+    "confidenceBuckets": {
+      "low": 0,
+      "medium": 2,
+      "high": 4
+    },
+    "entropy": 0.9182958340544896
+  }
+]
